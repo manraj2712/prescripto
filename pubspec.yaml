@@ -1,0 +1,62 @@
+name: online_prescription_frontend
+description: A new Flutter project.
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+      
+  auto_size_text: 3.0.0
+  cached_network_image: 3.2.1
+  flutter_animate: 1.0.0
+  flutter_cache_manager: 3.3.0
+  font_awesome_flutter: 10.1.0
+  from_css_color: 2.0.0
+  google_fonts: 3.0.1
+  intl: 0.17.0
+  json_path: 0.4.1
+  page_transition: 2.0.4
+  provider: 6.0.4
+  shared_preferences: 2.0.15
+  sqflite: 2.2.0+2
+  timeago: 3.2.2
+  url_launcher: 6.1.5
+  http: ^0.13.5
+  sqflite_common_ffi: ^2.2.1
+  syncfusion_flutter_pdf: ^20.4.44
+
+
+dev_dependencies:
+
+  file_picker: ^5.2.5
+  flutter_chips_input: ^2.0.0
+  flutter_neumorphic: ^3.2.0
+  flutter_test:
+    sdk: flutter
+  flutter_typeahead: ^4.3.7
+  image_picker: ^0.8.6+4
+  sizer: ^2.0.15
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: Muli
+      fonts:
+        - asset: lib/assets/fonts/muli/Muli.ttf
+
+        - asset: lib/assets/fonts/muli/Muli-Bold.ttf
+        - asset: lib/assets/fonts/muli/Muli-BoldItalic.ttf
+          weight: 700 
+
+        - asset: lib/assets/fonts/muli/Muli-ExtraLight.ttf
+        - asset: lib/assets/fonts/muli/Muli-ExtraLightItalic.ttf
+        - asset: lib/assets/fonts/muli/Muli-Light.ttf
+          weight: 300
+        - asset: lib/assets/fonts/muli/Muli-Semi-BoldItalic.ttf
+        - asset: lib/assets/fonts/muli/Muli-SemiBold.ttf
+          weight: 600
+  assets:
+        - lib/assets/images/background.png
+        - lib/assets/images/background1.png
